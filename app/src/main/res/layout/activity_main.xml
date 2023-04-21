@@ -14,8 +14,8 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:surface_type="texture_view"
         app:resize_mode="fill"
-        app:use_controller="true" />
+        app:use_controller="true"
+        app:controller_layout_id="@layout/custom_controller"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
